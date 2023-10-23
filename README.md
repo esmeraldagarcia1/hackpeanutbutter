@@ -1,3 +1,3 @@
 # hackpeanutbutter
 # Website with 3 fun games!
-# Create folder for songs and image then deploy main.html code
+# Instruction: Create a folder named "songs" for all the songs and, and a folder name "image" for the file "paper.jpeg". Then deploy main.html code
