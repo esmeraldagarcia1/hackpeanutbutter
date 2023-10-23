@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="guesssong.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Music Guessing Game</h1>
+        <p>Guess the song title:</p>
+        <input type="text" id="userGuess" placeholder="Your guess...">
+        <button id="startButton">Start</button> <!-- Added Start button -->
+        <button id="checkButton" disabled>Check</button> <!-- Disabled Check button -->
+        <div id="result"></div>
+    </div>
+    <audio id="audioPlayer" preload="auto"></audio> <!-- Added preload="auto" -->
+    <script src="guesssong.js"></script>
+</body>
+</html>
